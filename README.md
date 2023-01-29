@@ -2,19 +2,20 @@
 
 ## TELEGRAM BOT SETUP
 
-1. Find BotFather on Telegram search - type @BotFather
+1. Find BotFather on Telegram - type @BotFather in the search bar
 
-2. In the conversation type /newbot and name it ex. GPT3_bot and type a username for your bot ex. MyName_GPT3_Bot
+2. Then, type /newbot and give your bot a name and username.
 
-3. Now you can get a token to access HTTP API - just copy it.
+3. You will then receive a token to access the HTTP API.
 
 
 
 ## OPEN API -GETTING ACCESS KEY
-Browse to https://beta.openai.com/account/api-keys and create a new secret key and copy it.
+Next, go to https://beta.openai.com/account/api-keys and create a new secret key. 
+
 
 ## CHANGE A CODE USING THESE ACCESS keys
-Open server.py in text editor and insert your api keys in the right places:
+Finally, open the file server.py in a text editor and insert your API keys in the designated places:
  - line 6 - open api key between " "
  - line 8 - telegram token between " "
 
